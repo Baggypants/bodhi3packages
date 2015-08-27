@@ -1,8 +1,0 @@
-
-
-DIRECTORY="/opt/eepDater"
-
-if [ -d "$DIRECTORY" ]; then
-  # Control will enter here if $DIRECTORY exists.
-  rm -rf $DIRECTORY
-fi
